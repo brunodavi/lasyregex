@@ -1,0 +1,16 @@
+
+[project]
+name = "lasyregex"
+version = "0.1.0"
+description = "TUI de ferramentas para regex"
+authors = [
+    {name = "Bruno Davi", email = "48166556+brunodavi@users.noreply.github.com"},
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
