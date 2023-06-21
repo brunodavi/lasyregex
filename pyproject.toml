@@ -16,6 +16,17 @@ requires-python = ">=3.7"
 readme = "README.md"
 license = {text = "GNU"}
 
+
+[project.scripts]
+lasyregex = "lasyregex.main:main"
+
+[tool.pdm.scripts]
+test = 'pytest'
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.3.2",
+]
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
