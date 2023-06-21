@@ -3,13 +3,18 @@
 name = "lasyregex"
 version = "0.1.0"
 description = "TUI de ferramentas para regex"
+
 authors = [
     {name = "Bruno Davi", email = "48166556+brunodavi@users.noreply.github.com"},
 ]
-dependencies = []
+
+dependencies = [
+    "textual[dev]>=0.28.1",
+]
+
 requires-python = ">=3.7"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "GNU"}
 
 [build-system]
 requires = ["pdm-backend"]
