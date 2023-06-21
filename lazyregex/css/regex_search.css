@@ -1,0 +1,12 @@
+.box_search {
+  padding: 1;
+}
+
+.box_search Label {
+  opacity: 60%;
+  height: 3;
+}
+
+.box Button {
+  width: 100%;
+}
